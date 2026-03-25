@@ -47,8 +47,8 @@
             color: white;
         }
 
-        .restart { background: #22c55e; }
         .prev { background: #3b82f6; }
+        .next { background: #22c55e; }
 
         .bottom-left { position: fixed; bottom: 20px; left: 20px; }
         .bottom-right { position: fixed; bottom: 20px; right: 20px; }
@@ -59,28 +59,41 @@
 
 <h1>🤖 SWIS BOT 10</h1>
 
-<p class="final-text">“A smart AI helper for families that provides quick guidance for daily tasks, study support, and home management.”  </p>
+<p class="final-text">Final AI Module Completed ✅</p>
 
 <p>You have reached the end of the AI system.</p>
 
 <div class="dev">Developed by</div>
 
 <div class="name">
-𝑷⃗𝒓⃗𝒂⃗𝒋⃗𝒘⃗𝒂⃗𝒍 𝑷⃗𝒓⃗𝒂⃗𝒗⃗𝒊⃗𝒏⃗ 𝑺⃗𝒊⃗𝒏⃗𝒈⃗ℎ 
+𝑷⃗𝒓⃗𝒂⃗𝒋⃗𝒘⃗𝒂⃗𝒍 𝑷⃗𝒓⃗𝒂⃗𝒗⃗𝒊⃗𝒏⃗ 𝑺⃗𝒊⃗𝒏⃗𝒈⃗ℎ
 </div>
 
-<!-- Buttons -->
+<!-- Navigation -->
 <div class="bottom-left">
     <a href="https://swis-bot.github.io/SWIS-BOT_9/">
         <button class="btn prev">← Previous</button>
     </a>
 </div>
 
-<a href="https://swis-bot.github.io/SWIS-BOT_1/">
-    <button class="btn restart">🔁 Restart AI System</button>
-</a>
+<div class="bottom-right">
+    <a href="https://swis-bot.github.io/SWIS-BOT_11/">
+        <button class="btn next">Next →</button>
+    </a>
+</div>
 
-<script> window.chtlConfig = { chatbotId: "8232697591" , display: "fullscreen" } </script>
-<script async data-id="8232697591" id="chtl-script" data-display="fullscreen" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
+<!-- Chatbase -->
+<script>
+(function(){
+if(!window.chatbase || window.chatbase("getState") !== "initialized"){
+window.chatbase=(...a)=>{(window.chatbase.q=window.chatbase.q||[]).push(a)};
+}
+const s=document.createElement("script");
+s.src="https://www.chatbase.co/embed.min.js";
+s.id="PUT_BOT_10_ID_HERE";
+document.body.appendChild(s);
+})();
+</script>
+
 </body>
 </html>
